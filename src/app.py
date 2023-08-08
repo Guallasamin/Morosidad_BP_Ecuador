@@ -5,8 +5,13 @@ import plotly.express as px
 import pandas as pd
 from dash.dependencies import Input, Output, State
 from datetime import date
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 
-df = pd.read_csv('/Users/jonathanguallasamin/Desktop/1.dashboards/datos_bancos3.csv')
+df = pd.read_csv(
+    "https://raw.githubusercontent.com/Guallasamin/dash2/main/datos_bancos3.csv",
+    dtype=object,
+)
 
 df['fecha'] = pd.to_datetime(df['año'].astype(str) + '-' + df['mes'].astype(str), format='%Y-%m')
 
