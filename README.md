@@ -1,6 +1,6 @@
 # Dashboard de Morosidad en el Sistema Bancario de Ecuador
 
-Este repositorio contiene el código necesario para crear un tablero de control que presenta indicadores relevantes sobre la morosidad en el Sistema de Bancos Privados de Ecuador. En el archivo app.py podrás encontrar el código para su replicación.
+Este repositorio contiene el código necesario para crear un tablero de control que presenta indicadores relevantes sobre la morosidad en el Sistema de Bancos Privados de Ecuador. En el archivo `app.py` podrás encontrar el código para su replicación.
 
 ## Detalles del Proyecto
 
